@@ -1,0 +1,114 @@
+<h2>Ejemplo Formulario</h2>
+<section>
+  <artitle>
+    <form action="">
+      <input type="hidden" value="23456">
+      <fieldset>  
+        <legend>Primera parte</legend>
+        <br>
+        <label for="nombre">Nombre
+          <input id="nombre" value="Carlos" maxlength="20" placeholder="Escribe tu nombre" type="text" >
+        </label>
+        <br><br>
+        <label for="edad">Edad
+          <input id="edad" type="range" min="18" max="28" step="1">
+        </label>
+        <br>
+        <label for="tiempo_en_la_empresa">
+          Salario
+          <input id="tiempo_en_la_empresa" type="number"  min="100" max="500" step="20" value="100">
+        </label>
+        <br><br>
+        <label for="clave">
+          Ingrese la clave
+          <input id="clave" type="password" >
+        </label>
+        <br><br>
+        <label for="fecha"> 
+          Ingrese una fecha
+          <input id="fecha" type="date" min="2021-08-29" value="2021-08-29" max="2021-09-01">
+        </label>
+        <br><br>
+        <label for="campo_color">
+          Seleccione un color
+          <input id="campo_color" type="color">
+        </label>
+        <br><br>
+        <label for="archivo">
+          Busque un archivo
+          <input id="archivo" type="file" multiple>
+        </label>
+        <br><br>
+        <label for="correo">
+          Correo 
+          <input type="email">
+        </label>
+      </fieldset>
+      <input type="button" value="Enviar">
+      <input type="reset" value="Borrar formulario">
+    </form>
+  </artitle>
+  <artitle>
+    <fieldset>
+      <legend>Parte dos</legend>
+      <select name="" id="">
+        <option value="1">Medellin</option>
+        <option value="2">Bogota</option>
+        <option value="3">Cali</option>
+      </select> <br>
+      <label for="">
+        <input type="radio" name="estado_civil" />
+        Casado
+      </label><br><br>
+      <label for="">
+        <input type="radio" name="estado_civil" checked />
+        Soltero
+      </label><br><br>
+      <label for="">
+        <input type="radio" name="estado_civil" />
+        Viudo
+      </label><br><br>
+      <label for="">
+        <input type="radio" name="estado_civil" />
+        Divorciado
+      </label>
+      <br><br>
+      <label for="">
+        <input type="checkbox" >
+        Dibujar
+      </label>
+      <br><br>
+      <label for="">
+        <input type="checkbox" >
+        Dibujar
+      </label>
+      <br><br>
+      <label for="">
+        <input type="checkbox" >
+        Cantar
+      </label>
+      <br><br>
+      <label for="">
+        <input type="checkbox" >
+        Trotar
+      </label>
+      <br><br>
+      <label for="">
+        <input type="checkbox" checked>
+        Nadar
+      </label><br><br>
+      <textarea name="" id="" cols="20" rows="5"></textarea>
+      <br><br>
+      <label for="">Ciudad
+        <input type="text" name="ciudad" list="lista_ciudades">
+        <datalist id="lista_ciudades">
+          <option value="Medellin">Medellin</option>
+          <option value="Magdalena">Magdalena</option>
+          <option value="Monteria">Monteria</option>
+          <option value="Santa Fe de Bogota">Bogota</option>
+          <option value="">Cali</option>
+        </datalist>
+        </label>
+    </fieldset>
+  </artitle>
+</section>
